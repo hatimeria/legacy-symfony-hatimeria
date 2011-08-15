@@ -1,7 +1,5 @@
 # Hatimeria - Symfony and ExtJS CMF
 
-Application provides common features in modern applications
-
 ## Features 
 
 * User
