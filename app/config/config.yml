@@ -1,10 +1,10 @@
 imports:
     - { resource: parameters.ini }
     - { resource: security.yml }
+    - { resource: extjs.yml }
 
 framework:
-    #esi:             ~
-    #translator:      { fallback: en }
+    translator:      { fallback: %locale% }
     secret:          %secret%
     charset:         UTF-8
     router:          { resource: "%kernel.root_dir%/config/routing.yml" }
@@ -57,3 +57,16 @@ swiftmailer:
 jms_security_extra:
     secure_controllers:  true
     secure_all_services: false
+    
+fos_user:
+    db_driver: orm
+    firewall_name: main
+    user_class: Hatimeria\AdminBundle\Entity\User    
+    
+fos_facebook:
+    file:   %kernel.root_dir%/../vendor/facebook/src/base_facebook.php
+    alias:  facebook
+    app_id: 123456879
+    secret: s3cr3t
+    cookie: true
+    permissions: [email, user_birthday, user_location]    
