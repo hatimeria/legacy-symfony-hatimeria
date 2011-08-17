@@ -95,6 +95,9 @@ foreach ($deps as $name => $dep) {
         exit(sprintf('The "git" value for the "%s" dependency must be set.', $name));
     }
     $url = $dep['git'];
+    if (in_array('--dev', $argv) && isset($dep['dev'])) {
+        $url = $dep['dev'];
+    }
 
     if (!is_dir($installDir)) {
         system(sprintf('git clone %s %s', escapeshellarg($url), escapeshellarg($installDir)));
