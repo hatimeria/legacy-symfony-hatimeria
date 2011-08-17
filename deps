@@ -114,3 +114,8 @@
     git=git://github.com/hatimeria/HatimeriaDotpayBundle.git
     dev=git@github.com:hatimeria/HatimeriaDotpayBundle.git
     target=/bundles/Hatimeria/DotpayBundle
+
+[HatimeriaAdminBundle]
+    git=git://github.com/hatimeria/HatimeriaAdminBundle.git
+    dev=git@github.com:hatimeria/HatimeriaAdminBundle.git
+    target=/bundles/Hatimeria/AdminBundle
