@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Zenstruck\Bundle\CMSBundle\ZenstruckCMSBundle,
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
+            new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

@@ -5,19 +5,17 @@
         <title>{% block title %}Hatimeria CMF{% endblock %}</title>
         <link rel="stylesheet" href="{{ asset('bundles/hatimeriaextjs/js/vendor/ext-4.0.0/resources/css/ext-all.css') }}" type="text/css" media="all" />
         {% render "HatimeriaExtJSBundle:Default:headers" %}
+        <script type="text/javascript" src="{{ asset('bundles/hatimeriacmf/js/vendor/jquery/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/fosjsrouting/js/routing.js') }}"></script>
+        <script type="text/javascript" src="{{ path('fos_js_routing_js') }}"></script>
         {% block head %}{% endblock %}
     </head>
     
     <body>
-        <h1>Hatimeria CMF</h1>
-        {% if is_granted("IS_AUTHENTICATED_REMEMBERED") %}
-            <p>{% trans %} Signed in as {% endtrans %} <b>{{ app.user.username }}</b></p>
-        {% else %}
-            <a href="{{ path('fos_user_security_login') }}">{{ 'layout.login'|trans({}, 'FOSUserBundle') }}</a>
-        {% endif %}
         <div id="body"></div>
         {% block body %}{% endblock %}
         {% block fos_user_content %}{% endblock %}
         {% block javascripts %}{% endblock %}
+        {% render "HatimeriaExtJSBundle:Default:variables" %}
     </body>
 </html>

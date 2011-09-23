@@ -71,3 +71,6 @@ fos_facebook:
     secret: s3cr3t
     cookie: true
     permissions: [email, user_birthday, user_location]    
+    
+fos_js_routing:
+    routes_to_expose: [fos_user_security_check, fos_user_security_logout, homepage, administration]    

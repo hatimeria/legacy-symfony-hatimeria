@@ -1,6 +1,11 @@
+HatimeriaCMFBundle:
+    resource: "@HatimeriaCMFBundle/Resources/config/routing.yml"
+    prefix:   /
+
 HatimeriaAdminBundle:
     resource: "@HatimeriaAdminBundle/Resources/config/routing.xml"
     prefix:   /
+    
 HatimeriaExtJSBundle:
     resource: "@HatimeriaExtJSBundle/Resources/config/routing.yml"    
     
@@ -26,3 +31,6 @@ fos_user_resetting:
 fos_user_change_password:
     resource: "@FOSUserBundle/Resources/config/routing/change_password.xml"
     prefix: /change-password
+
+fos_js_routing:
+    resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
