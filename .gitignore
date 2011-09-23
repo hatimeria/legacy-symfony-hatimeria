@@ -6,16 +6,13 @@ tests/log/report/*.*
 tests/src/Tests/cache/*
 tests/src/Tests/logs/*
 web/bundles/*
-web/user/*
-web/item/*
-web/project/*
 *~
 *.swp
 *.orig
 app/config/parameters.ini
-/.idea/*
 /app/config/parameters.ini
 vendor/*
 .project
 .settings/*
 nbproject/*
+app/config/custom.yml

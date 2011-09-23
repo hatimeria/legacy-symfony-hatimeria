@@ -1,0 +1,13 @@
+parameters:
+  mailer_transport: sendmail
+  mailer_host: localhost
+  mailer_user: 
+  mailer_password: 
+  database_driver: pdo_mysql
+  database_host: localhost
+  database_user: root
+  database_password: 
+  database_port: 
+  database_name: 
+  secret: test123
+  web_profiler_toolbar: true

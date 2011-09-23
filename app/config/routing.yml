@@ -3,6 +3,10 @@ HatimeriaAdminBundle:
     prefix:   /
 HatimeriaExtJSBundle:
     resource: "@HatimeriaExtJSBundle/Resources/config/routing.yml"    
+    
+test:
+    pattern: /test
+    defaults: { _controller: HatimeriaAdminBundle:Test:index}
 
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
