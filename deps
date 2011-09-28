@@ -95,6 +95,10 @@
     git=git://github.com/FriendsOfSymfony/FOSJsRoutingBundle.git
     target=/bundles/FOS/JsRoutingBundle
 
+[BazingaExposeTranslationBundle]
+    git=git://github.com/Bazinga/BazingaExposeTranslationBundle.git
+    target=/bundles/Bazinga/BazingaExposeTranslationBundle
+
 [ZenstruckCMSBundle]
     git=git://github.com/hatimeria/ZenstruckCMSBundle.git
     dev=git@github.com:hatimeria/ZenstruckCMSBundle.git
