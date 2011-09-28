@@ -19,7 +19,8 @@ $loader->registerNamespaces(array(
     'Hatimeria'          => __DIR__.'/../vendor/bundles',    
     'Stof'               => __DIR__.'/../vendor/bundles',
     'Gedmo'              => __DIR__.'/../vendor/gedmo-doctrine-extensions/lib',
-    'DoctrineExtensions' => __DIR__.'/../vendor/doctrine-extensions/lib'
+    'DoctrineExtensions' => __DIR__.'/../vendor/doctrine-extensions/lib',
+    'Bazinga'            => __DIR__.'/../vendor/bundles',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',

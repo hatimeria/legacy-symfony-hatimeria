@@ -6,8 +6,11 @@
         <link rel="stylesheet" href="{{ asset('bundles/hatimeriaextjs/js/vendor/ext-4.0.0/resources/css/ext-all.css') }}" type="text/css" media="all" />
         {% render "HatimeriaExtJSBundle:Default:headers" %}
         <script type="text/javascript" src="{{ asset('bundles/hatimeriacmf/js/vendor/jquery/jquery.min.js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/hatimeriaadmin/js/init.js') }}"></script>
         <script type="text/javascript" src="{{ asset('bundles/fosjsrouting/js/routing.js') }}"></script>
         <script type="text/javascript" src="{{ path('fos_js_routing_js') }}"></script>
+        <script type="text/javascript" src="{{ asset('bundles/bazingaexposetranslation/js/translation.js') }}"></script>
+        <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js') }}"></script>
         {% block head %}{% endblock %}
     </head>
     

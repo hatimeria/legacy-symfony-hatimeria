@@ -97,7 +97,7 @@
 
 [BazingaExposeTranslationBundle]
     git=git://github.com/Bazinga/BazingaExposeTranslationBundle.git
-    target=/bundles/Bazinga/BazingaExposeTranslationBundle
+    target=/bundles/Bazinga/ExposeTranslationBundle
 
 [ZenstruckCMSBundle]
     git=git://github.com/hatimeria/ZenstruckCMSBundle.git

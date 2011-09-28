@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle,
             new FOS\FacebookBundle\FOSFacebookBundle,
             new FOS\JsRoutingBundle\FOSJsRoutingBundle,
+            new Bazinga\ExposeTranslationBundle\BazingaExposeTranslationBundle(),
             new Zenstruck\Bundle\CMSBundle\ZenstruckCMSBundle,
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
