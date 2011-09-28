@@ -1,6 +1,7 @@
 # TODO
 
-* parameters.ini and example, merging, installing
 * install script
 * update script
-* extjs login
+* static login page
+* flash messages as extjs alert window
+* _switch_user parameter name in js from symfony config

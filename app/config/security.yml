@@ -5,7 +5,9 @@ security:
 
     firewalls:
         main:
+            # todo access denied page
             pattern: ^/
+            switch_user: {role: ROLE_ADMIN}
             form_login:
                 provider: fos_userbundle
                 always_use_default_target_path: true
