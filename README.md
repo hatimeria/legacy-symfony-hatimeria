@@ -13,6 +13,13 @@ This project provides
 
 Much more soon.
 
+## Installation guide
+
+Clone this repo.
+Copy app/config/custom_example.yml to app/config/custom.yml (this file is used instead of parameters.ini)
+Adjust parameters in custom.yml file.
+Run php bin/vendors install from console.
+
 ## Developers tools (customized symfony related code):
 
 * Fixtures
