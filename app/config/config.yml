@@ -10,7 +10,8 @@ framework:
     charset:         UTF-8
     router:          { resource: "%kernel.root_dir%/config/routing.yml" }
     form:            true
-    csrf_protection: true
+    # due to ajax form handling csrf protection is disabled, @todo do it better way
+    csrf_protection: false
     validation:      { enable_annotations: true }
     templating:      { engines: ['twig'] } #assets_version: SomeVersionScheme
     session:
