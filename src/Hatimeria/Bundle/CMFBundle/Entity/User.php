@@ -1,6 +1,6 @@
 <?php
 
-namespace Hatimeria\CMFBundle\Entity;
+namespace Hatimeria\Bundle\CMFBundle\Entity;
 
 use FOS\UserBundle\Entity\User as BaseUser;
 use Doctrine\ORM\Mapping as ORM;

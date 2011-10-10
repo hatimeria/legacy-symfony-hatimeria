@@ -2,6 +2,6 @@ hatimeria_ext_js:
   signin_route: fos_user_security_login
   javascript_mode:  ext-debug
   mappings:
-    Hatimeria\AdminBundle\Entity\User:
+    Hatimeria\Bundle\CMFBundle\Entity\User:
       fields:
         default: [id, username, email]
