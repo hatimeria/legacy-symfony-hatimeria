@@ -18,8 +18,10 @@ Much more soon. (Newsletter, subscriptions, invoices, virtual currency, easy ext
 
 Clone this repo.
 Copy app/config/custom_example.yml to app/config/custom.yml (this file is used instead of parameters.ini)
-Adjust parameters in custom.yml file.
+Adjust parameters in custom.yml file (enter your email under my_email key).
 Run php bin/vendors install from console.
+Run php app/console doctrine:fixtures:load
+
 Login with email from custom.yml and password: 'hatimeria'
 
 ## Developers tools (customized symfony related code):
