@@ -1,7 +1,0 @@
-hatimeria_login:
-    pattern:  /login
-    defaults: { _controller: HatimeriaCMFBundle:Default:login }
-
-hatimeria_after_login:
-    pattern:  /after-login
-    defaults: { _controller: HatimeriaCMFBundle:Default:afterLogin }

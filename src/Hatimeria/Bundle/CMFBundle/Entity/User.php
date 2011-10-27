@@ -22,4 +22,10 @@ class User extends BaseUser
     {
         parent::__construct();
     }
+    
+    public function setEmail($v)
+    {
+        $this->setUsername($v);
+        $this->email = $v;
+    }
 }

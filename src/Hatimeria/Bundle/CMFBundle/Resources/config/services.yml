@@ -1,7 +1,0 @@
-parameters:
-#    hatimeria_cmf.example.class: Hatimeria\Bundle\CMFBundle\Example
-
-services:
-#    hatimeria_cmf.example:
-#        class: %hatimeria_cmf.example.class%
-#        arguments: [@service_id, "plain_value", %parameter%]

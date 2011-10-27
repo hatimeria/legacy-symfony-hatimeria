@@ -23,6 +23,7 @@ class AppKernel extends Kernel
             new FOS\JsRoutingBundle\FOSJsRoutingBundle,
             new Bazinga\ExposeTranslationBundle\BazingaExposeTranslationBundle(),
             new Zenstruck\Bundle\CMSBundle\ZenstruckCMSBundle,
+            new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle,
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
             new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),

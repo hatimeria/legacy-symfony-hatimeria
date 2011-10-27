@@ -8,7 +8,8 @@ framework:
     translator:      { fallback: %locale% }
     secret:          %secret%
     charset:         UTF-8
-    router:          { resource: "%kernel.root_dir%/config/routing.yml" }
+    router:          
+      resource: "%kernel.root_dir%/config/routing.yml"
     form:            true
     # due to ajax form handling csrf protection is disabled, @todo do it better way
     csrf_protection: false
@@ -74,7 +75,7 @@ fos_facebook:
     permissions: [email, user_birthday, user_location]    
     
 fos_js_routing:
-    routes_to_expose: [fos_user_security_check, fos_user_security_logout, homepage, administration]    
+    routes_to_expose: [fos_user_security_check, fos_user_security_logout, homepage, hatimeria_admin]    
     
 zenstruck_cms:
     content_types:

@@ -11,6 +11,7 @@ security:
             form_login:
                 provider: fos_userbundle
                 always_use_default_target_path: true
+                failure_forward: true
                 default_target_path: /after-login  
             logout:       true
             anonymous:    true

@@ -1,13 +1,16 @@
-HatimeriaCMFBundle:
-    resource: "@HatimeriaCMFBundle/Resources/config/routing.yml"
-    prefix:   /
-
 HatimeriaAdminBundle:
     resource: "@HatimeriaAdminBundle/Resources/config/routing.xml"
-    prefix:   /
     
-HatimeriaExtJSBundle:
-    resource: "@HatimeriaExtJSBundle/Resources/config/routing.yml"    
+HatimeriaExtJSBundleDirect:
+    resource: "@HatimeriaExtJSBundle/Resources/config/routing/direct.yml"    
+    
+HatimeriaExtJSBundleSecurity:
+    resource: "@HatimeriaExtJSBundle/Resources/config/routing/security.yml"
+
+homepage:
+    pattern: /
+    defaults: { _controller: HatimeriaAdminBundle:Admin:index}
+    
     
 test:
     pattern: /test
