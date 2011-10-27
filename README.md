@@ -10,8 +10,9 @@ This project provides
  * Backend interface for admin
  * Ajax login
  * Users list
+ * Simple cms
 
-Much more soon.
+Much more soon. (Newsletter, subscriptions, invoices, virtual currency, easy extension points for interfaces)
 
 ## Installation guide
 
@@ -19,6 +20,7 @@ Clone this repo.
 Copy app/config/custom_example.yml to app/config/custom.yml (this file is used instead of parameters.ini)
 Adjust parameters in custom.yml file.
 Run php bin/vendors install from console.
+Login with email from custom.yml and password: 'hatimeria'
 
 ## Developers tools (customized symfony related code):
 

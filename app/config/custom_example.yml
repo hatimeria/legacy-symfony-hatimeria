@@ -12,3 +12,4 @@ parameters:
   secret: test123
   web_profiler_toolbar: true
   locale: en
+  my_email: example@example.org
