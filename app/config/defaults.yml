@@ -12,3 +12,19 @@ parameters:
   secret: test123
   web_profiler_toolbar: true
   locale: en
+  admin_model_cms: "HatimeriaCMFBundle:CmsPage"
+  admin_model_cms_class: "Hatimeria\Bundle\CMFBundle\Entity\CmsPage"
+  admin_loader:
+    HatimeriaBank: '/bundles/hatimeriabank/js'  
+  admin_menu:
+    main:
+      text: Dashboard
+    newsletter:
+      text: Newsletter
+    cms:
+      text: Pages
+    user:
+      text: Users
+      children:
+        users:
+          text: All
