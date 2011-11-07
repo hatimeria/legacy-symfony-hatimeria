@@ -96,7 +96,7 @@
     target=/bundles/FOS/JsRoutingBundle
 
 [BazingaExposeTranslationBundle]
-    git=git://github.com/Bazinga/BazingaExposeTranslationBundle.git
+    git=git://github.com/willdurand/BazingaExposeTranslationBundle.git
     target=/bundles/Bazinga/ExposeTranslationBundle
 
 [ZenstruckCMSBundle]
