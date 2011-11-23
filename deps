@@ -104,6 +104,14 @@
     dev=git@github.com:hatimeria/ZenstruckCMSBundle.git
     target=/bundles/Zenstruck/Bundle/CMSBundle
 
+[snappy]
+    git=git://github.com/knplabs/snappy.git
+    target=/snappy
+
+[KnpSnappyBundle]
+    git=git://github.com/knplabs/KnpSnappyBundle.git 
+    target=/bundles/Knp/Bundle/SnappyBundle
+
 [HatimeriaExtJSBundle]
     git=git://github.com/hatimeria/HatimeriaExtJSBundle.git
     dev=git@github.com:hatimeria/HatimeriaExtJSBundle.git

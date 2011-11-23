@@ -22,6 +22,8 @@ $loader->registerNamespaces(array(
     'Gedmo'              => __DIR__.'/../vendor/gedmo-doctrine-extensions/lib',
     'DoctrineExtensions' => __DIR__.'/../vendor/doctrine-extensions/lib',
     'Bazinga'            => __DIR__.'/../vendor/bundles',
+    'Knp\\Snappy'        => __DIR__.'/../vendor/snappy/src',
+    'Knp'                => __DIR__.'/../vendor/bundles',    
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
