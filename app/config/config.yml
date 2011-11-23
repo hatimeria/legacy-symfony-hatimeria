@@ -80,3 +80,14 @@ fos_js_routing:
 zenstruck_cms:
     content_types:
       cms_page: Hatimeria\Bundle\CMFBundle\Entity\CmsPage      
+      
+knp_snappy:
+    pdf:
+        enabled:    true
+        binary:     /usr/local/bin/wkhtmltopdf
+        options:    
+          encoding: utf-8
+    image:
+        enabled:    false
+        binary:     /usr/local/bin/wkhtmltoimage
+        options:    []      
