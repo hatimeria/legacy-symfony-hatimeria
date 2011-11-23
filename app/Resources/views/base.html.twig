@@ -3,15 +3,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <title>{% block title %}Hatimeria CMF{% endblock %}</title>
-        <link rel="stylesheet" href="{{ asset('bundles/hatimeriaextjs/js/vendor/ext-4.0.0/resources/css/ext-all.css') }}" type="text/css" media="all" />
+        <link rel="stylesheet" href="{{ asset('bundles/hatimeriaextjs/js/extjs/vendor/extjs-4.0.7/resources/css/ext-all.css') }}" type="text/css" media="all" />
         {% render "HatimeriaExtJSBundle:Default:headers" %}
-       <script type="text/javascript">
+        <script type="text/javascript">
             Ext.Loader.setPath('HatimeriaAdmin', '/bundles/hatimeriaadmin/js');
         </script>        
-        <script type="text/javascript" src="{{ asset('bundles/hatimeriacmf/js/vendor/jquery/jquery.min.js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bundles/fosjsrouting/js/routing.js') }}"></script>
         <script type="text/javascript" src="{{ path('fos_js_routing_js') }}"></script>
-        <script type="text/javascript" src="{{ asset('bundles/bazingaexposetranslation/js/translation.js') }}"></script>
         <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js') }}"></script>
         <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js', { 'domain_name' : 'HatimeriaAdminBundle'}) }}"></script>
         <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js', { 'domain_name' : 'validators' }) }}"></script>
