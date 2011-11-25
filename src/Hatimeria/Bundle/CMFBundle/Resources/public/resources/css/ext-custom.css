@@ -1,0 +1,23 @@
+/* 
+    Document   : ext-custom
+    Created on : 2011-11-25, 16:39:20
+    Author     : developer
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.hatimeria-main-menu .x-grid-row .x-grid-cell-inner{
+    height: 30px;
+}
+.hatimeria-main-menu .x-grid-cell-inner {
+    padding: 7px;
+}
