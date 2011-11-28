@@ -16,8 +16,20 @@ root {
 }
 
 .hatimeria-main-menu .x-grid-row .x-grid-cell-inner{
-    height: 30px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
 }
 .hatimeria-main-menu .x-grid-cell-inner {
-    padding: 7px;
+    padding: 9px;
+}
+.x-tree-panel .x-grid-row .x-grid-cell{
+    border-top: 2px solid white;
+    border-bottom: 2px solid #ABADAE;
+    background-color: #EEEEEF;
+    text-shadow: 0.1em 0.1em 0.05em white;
+}
+.x-tree-panel .x-grid-row .x-grid-cell:hover{
+    background-color: #ABD97F;
+    color: #5F5F60;
 }

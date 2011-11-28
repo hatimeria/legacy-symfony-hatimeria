@@ -4,7 +4,7 @@ $include-default: false;
 
 // Insert your custom variables here.
 $base-color: #A6DE65;
-$color: #B3B3B3;
+$color: #787878;
 $font-size: 12px;
 $panel-body-color: #B3B3B3;
 $base-color-button: #9A8BD1;
@@ -21,13 +21,14 @@ $button-default-color: white;
 //panel
 $panel-header-background-gradient: color-stops(#A4DE65, #409C34);
 $panel-header-font-size: ceil($font-size * 1.4) !default; 
+$panel-header-padding: 10px 4px 15px 40px !default;
+$panel-header-color: #4E4E4E;
 
 //toolbar
 //$toolbar-background-gradient: color-stops(#409C34, #A4DE65);
 
 //grid
 $grid-row-cell-color: null !default;
-$grid-row-cell-font: normal ceil($font-size * .9) !default;
 
 
 @import 'ext4/default/all';

@@ -187,7 +187,7 @@ input, textarea, select {
 
 /* line 1, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/core/_core.scss */
 .x-body {
-  color: #b3b3b3;
+  color: #787878;
   font-size: 12px;
   font-family: tahoma, arial, verdana, sans-serif; }
 
@@ -4689,7 +4689,7 @@ table.x-datepicker-inner {
   /* line 201, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
   .x-grid-row .x-grid-cell {
     color: null;
-    font: normal 11px;
+    font: normal 11px tahoma, arial, verdana, sans-serif;
     background-color: white;
     border-color: #ededed;
     border-style: solid;
@@ -5136,10 +5136,10 @@ browsers will do whacky things with it.
   overflow: visible !important; }
   /* line 715, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
   .x-grid-row-editor .x-form-field {
-    font: normal 11px !important; }
+    font: normal 11px tahoma, arial, verdana, sans-serif !important; }
   /* line 718, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
   .x-grid-row-editor .x-form-display-field {
-    font: normal 11px !important;
+    font: normal 11px tahoma, arial, verdana, sans-serif !important;
     padding-top: 0;
     padding-left: 4px; }
   /* line 724, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -5885,7 +5885,7 @@ textarea.x-form-invalid-field {
 
 /* line 37, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header {
-  padding: 5px 4px 4px 5px; }
+  padding: 10px 4px 15px 40px; }
 
 /* line 42, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-icon,
@@ -6021,7 +6021,7 @@ textarea.x-form-invalid-field {
 
 /* line 290, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-text-default {
-  color: #142600;
+  color: #4e4e4e;
   font-size: 17px;
   font-weight: bold;
   font-family: tahoma, arial, verdana, sans-serif; }
@@ -6202,7 +6202,7 @@ textarea.x-form-invalid-field {
 
 /* line 290, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-text-default-framed {
-  color: #142600;
+  color: #4e4e4e;
   font-size: 17px;
   font-weight: bold;
   font-family: tahoma, arial, verdana, sans-serif; }
