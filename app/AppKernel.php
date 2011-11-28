@@ -24,6 +24,7 @@ class AppKernel extends Kernel
             new Bazinga\ExposeTranslationBundle\BazingaExposeTranslationBundle(),
             new Zenstruck\Bundle\CMSBundle\ZenstruckCMSBundle,
             new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle,
+            new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
             new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),
