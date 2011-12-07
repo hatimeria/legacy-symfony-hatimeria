@@ -16,7 +16,7 @@ root {
 }
 
 .hatimeria-main-menu .x-grid-row .x-grid-cell-inner{
-    height: 40px;
+    height: 35px;
     font-size: 15px;
     font-weight: bold;
 }
@@ -24,12 +24,53 @@ root {
     padding: 9px;
 }
 .x-tree-panel .x-grid-row .x-grid-cell{
-    border-top: 2px solid white;
-    border-bottom: 2px solid #ABADAE;
-    background-color: #EEEEEF;
-    text-shadow: 0.1em 0.1em 0.05em white;
+    background: #EDF0F1;
+    text-shadow: 0 1px 0 white;
+    border-bottom: 1px solid #BEC9D0;
+    border-top: 1px solid white;
+    color: #5E6A80;
 }
 .x-tree-panel .x-grid-row .x-grid-cell:hover{
-    background-color: #ABD97F;
-    color: #5F5F60;
+    background: #A1A1A1;
+    color: white;
+    text-shadow: 0 1px 0 gray;
+}
+.hatimeria-main-menu #logo{
+    text-align: center;
+    line-height: 20px;
+}
+.hatimeria-main-menu #logo a{
+    color: #4CA241;
+}
+.x-tree-icon-leaf, .x-tree-icon-parent, .x-grid-tree-node-expanded .x-tree-icon-parent{
+    background: none;
+}
+.x-panel-header-text-default{
+    text-shadow: 0 1px 0 #919191;
+}
+.x-grid-row .x-grid-row-selected{
+    font-size: 8px;
+}
+.x-unselectable {
+    font-size: 12px;
+}
+.x-window-header-text-default {
+    text-shadow: 1px 1px gray;
+}
+#logo > img, #logo > p{
+    float: left;
+    padding: 0 5px;
+}
+#logo > a{
+    color: #4CA241;
+}
+.x-message-box .x-window-body{
+    text-align: center;
+    font-weight: bold;
+    color: gray;
+    padding: 10px;
+    background-color: white;
+}
+.x-tree-panel .x-grid-row .x-grid-cell-inner img.x-tree-icon{
+    display: none;
 }
