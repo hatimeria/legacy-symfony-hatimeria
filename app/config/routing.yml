@@ -6,6 +6,10 @@ HatimeriaExtJSBundleDirect:
     
 HatimeriaExtJSBundleSecurity:
     resource: "@HatimeriaExtJSBundle/Resources/config/routing/security.yml"
+    
+HatimeriaAdminBundleMedia:
+    resource: "@HatimeriaAdminBundle/Controller/MediaController.php"
+    type: annotation
 
 homepage:
     pattern: /
