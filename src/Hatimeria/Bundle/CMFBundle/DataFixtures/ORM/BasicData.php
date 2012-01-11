@@ -4,7 +4,6 @@ namespace Hatimeria\Bundle\CMFBundle\DataFixtures\ORM;
 
 use Hatimeria\Bundle\CMFBundle\Entity\User;
 use Hatimeria\Bundle\CMFBundle\Entity\CmsPage;
-use Zenstruck\Bundle\CMSBundle\Entity\Path;
 
 class BasicData extends HatimeriaFixtures
 {
@@ -32,7 +31,7 @@ class BasicData extends HatimeriaFixtures
         $node = new CmsPage();
         $node->setTitle('Example');
         $node->setUser($this->admin);
-        $node->setPrimaryPath(new Path('example'));
+        $node->setPath('example');
         $node->setBody("Example content");
         $node->publish();
         $this->manager->persist($node);        

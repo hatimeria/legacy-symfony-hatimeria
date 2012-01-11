@@ -22,12 +22,13 @@ class AppKernel extends Kernel
             new FOS\FacebookBundle\FOSFacebookBundle,
             new FOS\JsRoutingBundle\FOSJsRoutingBundle,
             new Bazinga\ExposeTranslationBundle\BazingaExposeTranslationBundle(),
-            new Zenstruck\Bundle\CMSBundle\ZenstruckCMSBundle,
+            new Zenstruck\Bundle\ContentBundle\ZenstruckContentBundle,
             new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle,
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
             new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),
+            new \Hatimeria\FrameworkBundle\HatimeriaFrameworkBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

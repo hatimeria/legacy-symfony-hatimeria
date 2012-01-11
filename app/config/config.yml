@@ -77,7 +77,10 @@ fos_facebook:
 fos_js_routing:
     routes_to_expose: [fos_user_security_check, fos_user_security_logout, homepage, hatimeria_admin]    
     
-zenstruck_cms:
+zenstruck_content:
+    use_form: true
+    use_controller: true
+    node_class: Hatimeria\Bundle\CMFBundle\Entity\ContentNode
     content_types:
       cms_page: Hatimeria\Bundle\CMFBundle\Entity\CmsPage      
       
