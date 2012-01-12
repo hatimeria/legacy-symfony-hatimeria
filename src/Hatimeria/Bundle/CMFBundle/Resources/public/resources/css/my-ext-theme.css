@@ -1257,7 +1257,7 @@ input, textarea, select {
     cursor: pointer;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-image: url('../images/tools/tool-sprites.gif');
+    background-image: url('../images/tools/tool-sprites.jpg');
     margin: 0; }
 
 /* line 23, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/util/_tool.scss */
@@ -1511,7 +1511,7 @@ input, textarea, select {
 /* line 14, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/util/_scroller.scss */
 .x-scroller-vertical {
   border: 1px solid #bec9d0;
-  border-top-color: #c5c5c5; }
+  border-top-color: #f5f3ed, #f5f3e5; }
 
 /* line 19, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/util/_scroller.scss */
 .x-scroller-horizontal {
@@ -2032,12 +2032,12 @@ input, textarea, select {
   border-style: solid;
   background-image: none;
   background-color: #50a04e;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #50a04e), color-stop(48%, #4c974a), color-stop(52%, #3d793b), color-stop(100%, #407f3e));
-  background-image: -webkit-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -moz-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -o-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -ms-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-btn-default-small-mc {
@@ -2183,24 +2183,27 @@ input, textarea, select {
   border-color: #56862a;
   background-image: none;
   background-color: #8fda18;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fda18), color-stop(48%, #83d017), color-stop(52%, #638d35), color-stop(100%, #679b2f));
-  background-image: -webkit-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -moz-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -o-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -ms-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f3ed), color-stop(100%, #f5f3e5));
+  background-image: -webkit-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -moz-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -o-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -ms-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: linear-gradient(top, #f5f3ed, #f5f3e5); }
+  /* line 755, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
+  .x-btn-default-small-over .x-btn-inner {
+    color: #4b9f01; }
 
 /* line 771, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-focus {
   border-color: #56862a;
   background-image: none;
   background-color: #8fda18;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fda18), color-stop(48%, #83d017), color-stop(52%, #638d35), color-stop(100%, #679b2f));
-  background-image: -webkit-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -moz-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -o-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -ms-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8cbe35), color-stop(100%, #86bb2f));
+  background-image: -webkit-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -moz-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -o-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -ms-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: linear-gradient(top, #8cbe35, #86bb2f); }
 
 /* line 796, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-menu-active,
@@ -2208,24 +2211,24 @@ input, textarea, select {
   border-color: #32772b;
   background-image: none;
   background-color: #428538;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #428538), color-stop(48%, #4a8a3e), color-stop(52%, #279312), color-stop(100%, #299c14));
-  background-image: -webkit-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -moz-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -o-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -ms-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 820, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-small-disabled {
   border-color: #adb4a4;
   background-image: none;
   background-color: #c2c8bc;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c8bc), color-stop(48%, #bcc2b6), color-stop(52%, #a6ad9d), color-stop(100%, #abb2a2));
-  background-image: -webkit-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -moz-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -o-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -ms-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 868, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-small-over .x-frame-tl,
@@ -2344,12 +2347,12 @@ input, textarea, select {
   border-style: solid;
   background-image: none;
   background-color: #50a04e;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #50a04e), color-stop(48%, #4c974a), color-stop(52%, #3d793b), color-stop(100%, #407f3e));
-  background-image: -webkit-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -moz-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -o-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -ms-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-btn-default-medium-mc {
@@ -2495,24 +2498,27 @@ input, textarea, select {
   border-color: #56862a;
   background-image: none;
   background-color: #8fda18;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fda18), color-stop(48%, #83d017), color-stop(52%, #638d35), color-stop(100%, #679b2f));
-  background-image: -webkit-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -moz-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -o-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -ms-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f3ed), color-stop(100%, #f5f3e5));
+  background-image: -webkit-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -moz-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -o-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -ms-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: linear-gradient(top, #f5f3ed, #f5f3e5); }
+  /* line 755, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
+  .x-btn-default-medium-over .x-btn-inner {
+    color: #4b9f01; }
 
 /* line 771, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-focus {
   border-color: #56862a;
   background-image: none;
   background-color: #8fda18;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fda18), color-stop(48%, #83d017), color-stop(52%, #638d35), color-stop(100%, #679b2f));
-  background-image: -webkit-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -moz-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -o-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -ms-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8cbe35), color-stop(100%, #86bb2f));
+  background-image: -webkit-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -moz-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -o-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -ms-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: linear-gradient(top, #8cbe35, #86bb2f); }
 
 /* line 796, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-menu-active,
@@ -2520,24 +2526,24 @@ input, textarea, select {
   border-color: #32772b;
   background-image: none;
   background-color: #428538;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #428538), color-stop(48%, #4a8a3e), color-stop(52%, #279312), color-stop(100%, #299c14));
-  background-image: -webkit-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -moz-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -o-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -ms-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 820, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-medium-disabled {
   border-color: #adb4a4;
   background-image: none;
   background-color: #c2c8bc;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c8bc), color-stop(48%, #bcc2b6), color-stop(52%, #a6ad9d), color-stop(100%, #abb2a2));
-  background-image: -webkit-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -moz-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -o-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -ms-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 868, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-medium-over .x-frame-tl,
@@ -2656,12 +2662,12 @@ input, textarea, select {
   border-style: solid;
   background-image: none;
   background-color: #50a04e;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #50a04e), color-stop(48%, #4c974a), color-stop(52%, #3d793b), color-stop(100%, #407f3e));
-  background-image: -webkit-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -moz-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -o-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: -ms-linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e);
-  background-image: linear-gradient(top, #50a04e, #4c974a 48%, #3d793b 52%, #407f3e); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-btn-default-large-mc {
@@ -2807,24 +2813,27 @@ input, textarea, select {
   border-color: #56862a;
   background-image: none;
   background-color: #8fda18;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fda18), color-stop(48%, #83d017), color-stop(52%, #638d35), color-stop(100%, #679b2f));
-  background-image: -webkit-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -moz-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -o-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -ms-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f3ed), color-stop(100%, #f5f3e5));
+  background-image: -webkit-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -moz-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -o-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -ms-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: linear-gradient(top, #f5f3ed, #f5f3e5); }
+  /* line 755, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
+  .x-btn-default-large-over .x-btn-inner {
+    color: #4b9f01; }
 
 /* line 771, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-focus {
   border-color: #56862a;
   background-image: none;
   background-color: #8fda18;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8fda18), color-stop(48%, #83d017), color-stop(52%, #638d35), color-stop(100%, #679b2f));
-  background-image: -webkit-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -moz-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -o-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: -ms-linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f);
-  background-image: linear-gradient(top, #8fda18, #83d017 48%, #638d35 52%, #679b2f); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8cbe35), color-stop(100%, #86bb2f));
+  background-image: -webkit-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -moz-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -o-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: -ms-linear-gradient(top, #8cbe35, #86bb2f);
+  background-image: linear-gradient(top, #8cbe35, #86bb2f); }
 
 /* line 796, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-menu-active,
@@ -2832,24 +2841,24 @@ input, textarea, select {
   border-color: #32772b;
   background-image: none;
   background-color: #428538;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #428538), color-stop(48%, #4a8a3e), color-stop(52%, #279312), color-stop(100%, #299c14));
-  background-image: -webkit-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -moz-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -o-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: -ms-linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14);
-  background-image: linear-gradient(top, #428538, #4a8a3e 48%, #279312 52%, #299c14); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 820, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-btn-default-large-disabled {
   border-color: #adb4a4;
   background-image: none;
   background-color: #c2c8bc;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c2c8bc), color-stop(48%, #bcc2b6), color-stop(52%, #a6ad9d), color-stop(100%, #abb2a2));
-  background-image: -webkit-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -moz-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -o-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: -ms-linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2);
-  background-image: linear-gradient(top, #c2c8bc, #bcc2b6 48%, #a6ad9d 52%, #abb2a2); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8bbe33), color-stop(100%, #4b9f01));
+  background-image: -webkit-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -moz-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -o-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: -ms-linear-gradient(top, #8bbe33, #4b9f01);
+  background-image: linear-gradient(top, #8bbe33, #4b9f01); }
 
 /* line 868, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_button.scss */
 .x-nbr .x-btn-default-large-over .x-frame-tl,
@@ -4503,7 +4512,7 @@ table.x-datepicker-inner {
   border-color: #bec9d0;
   border-style: solid;
   border-width: 1px;
-  border-top-color: #c5c5c5; }
+  border-top-color: #f5f3ed, #f5f3e5; }
 /* line 13, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-panel .x-grid-header-ct-hidden {
   border-top-width: 0 !important; }
@@ -4538,13 +4547,13 @@ table.x-datepicker-inner {
   padding: 0;
   border: 1px solid #bec9d0;
   background-image: none;
-  background-color: #c5c5c5;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #e3e4e6));
-  background-image: -webkit-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: -moz-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: -o-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: -ms-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: linear-gradient(top, #f9f9f9, #e3e4e6); }
+  background-color: #f5f3ed, #f5f3e5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f3ed), color-stop(100%, #f5f3e5));
+  background-image: -webkit-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -moz-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -o-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -ms-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: linear-gradient(top, #f5f3ed, #f5f3e5); }
 
 /* line 53, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-accordion-item .x-grid-header-ct {
@@ -4563,22 +4572,22 @@ table.x-datepicker-inner {
   padding: 0;
   position: absolute;
   overflow: hidden;
-  border-right: 1px solid #c5c5c5;
+  border-right: 1px solid #f5f3ed, #f5f3e5;
   border-left: 0 none;
   border-top: 0 none;
   border-bottom: 0 none;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
   font: normal 11px/15px tahoma, arial, verdana, sans-serif;
-  color: null;
+  color: #479e00;
   font: normal 11px tahoma, arial, verdana, sans-serif;
   background-image: none;
-  background-color: #c5c5c5;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #e3e4e6));
-  background-image: -webkit-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: -moz-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: -o-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: -ms-linear-gradient(top, #f9f9f9, #e3e4e6);
-  background-image: linear-gradient(top, #f9f9f9, #e3e4e6); }
+  background-color: #f5f3ed, #f5f3e5;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f3ed), color-stop(100%, #f5f3e5));
+  background-image: -webkit-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -moz-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -o-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -ms-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: linear-gradient(top, #f5f3ed, #f5f3e5); }
 
 /* line 94, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-group-header {
@@ -4588,7 +4597,7 @@ table.x-datepicker-inner {
 /* line 98, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-group-sub-header {
   background: transparent;
-  border-top: 1px solid #c5c5c5;
+  border-top: 1px solid #f5f3ed, #f5f3e5;
   border-left-width: 0; }
 
 /* line 104, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
@@ -4610,12 +4619,12 @@ table.x-datepicker-inner {
   border-right-color: #aaccf6;
   background-image: none;
   background-color: #aaccf6;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebf3fd), color-stop(39%, #ebf3fd), color-stop(40%, #d9e8fb), color-stop(100%, #d9e8fb));
-  background-image: -webkit-linear-gradient(top, #ebf3fd, #ebf3fd 39%, #d9e8fb 40%, #d9e8fb);
-  background-image: -moz-linear-gradient(top, #ebf3fd, #ebf3fd 39%, #d9e8fb 40%, #d9e8fb);
-  background-image: -o-linear-gradient(top, #ebf3fd, #ebf3fd 39%, #d9e8fb 40%, #d9e8fb);
-  background-image: -ms-linear-gradient(top, #ebf3fd, #ebf3fd 39%, #d9e8fb 40%, #d9e8fb);
-  background-image: linear-gradient(top, #ebf3fd, #ebf3fd 39%, #d9e8fb 40%, #d9e8fb); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #aae543), color-stop(100%, #90c239));
+  background-image: -webkit-linear-gradient(top, #aae543, #90c239);
+  background-image: -moz-linear-gradient(top, #aae543, #90c239);
+  background-image: -o-linear-gradient(top, #aae543, #90c239);
+  background-image: -ms-linear-gradient(top, #aae543, #90c239);
+  background-image: linear-gradient(top, #aae543, #90c239); }
 
 /* line 130, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-nlg .x-grid-header-ct,
@@ -4636,7 +4645,7 @@ table.x-datepicker-inner {
   width: 14px;
   background: no-repeat left center;
   background-color: #c3daf9;
-  background-image: url('../images/grid/grid3-hd-btn.gif');
+  background-image: url('../images/grid/grid3-hd-btn.jpg');
   position: absolute;
   right: 0;
   top: 0;
@@ -4713,7 +4722,7 @@ table.x-datepicker-inner {
 .x-grid-row-over .x-grid-cell,
 .x-grid-row-over .x-grid-rowwrap-div {
   border-color: #dddddd;
-  background-color: #efefef; }
+  background-color: #9acd42; }
 
 /* line 236, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-row-focused .x-grid-cell,
@@ -4725,8 +4734,8 @@ table.x-datepicker-inner {
 .x-grid-row-selected .x-grid-cell,
 .x-grid-row-selected .x-grid-rowwrap-div {
   border-style: dotted;
-  border-color: #b3abaa;
-  background-color: #d3d3d3 !important; }
+  border-color: #578922;
+  background-color: #78b233 !important; }
 
 /* line 252, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-rowwrap-div .x-grid-cell,
@@ -4807,13 +4816,13 @@ browsers will do whacky things with it.
 .x-grid-row-selected .x-grid-cell-special {
   border-right: 1px solid #a2f541;
   background-image: none;
-  background-color: #d3d3d3;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #d3d3d3), color-stop(100%, #c7c6c6));
-  background-image: -webkit-linear-gradient(left, #d3d3d3, #c7c6c6);
-  background-image: -moz-linear-gradient(left, #d3d3d3, #c7c6c6);
-  background-image: -o-linear-gradient(left, #d3d3d3, #c7c6c6);
-  background-image: -ms-linear-gradient(left, #d3d3d3, #c7c6c6);
-  background-image: linear-gradient(left, #d3d3d3, #c7c6c6); }
+  background-color: #78b233;
+  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, #78b233), color-stop(100%, #6b9e2d));
+  background-image: -webkit-linear-gradient(left, #78b233, #6b9e2d);
+  background-image: -moz-linear-gradient(left, #78b233, #6b9e2d);
+  background-image: -o-linear-gradient(left, #78b233, #6b9e2d);
+  background-image: -ms-linear-gradient(left, #78b233, #6b9e2d);
+  background-image: linear-gradient(left, #78b233, #6b9e2d); }
 
 /* line 337, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-grid-dirty-cell {
@@ -5039,7 +5048,7 @@ browsers will do whacky things with it.
 
 /* line 604, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-tbar-loading {
-  background-image: url('../images/grid/refresh.gif') !important; }
+  background-image: url('../images/grid/refresh.jpg') !important; }
 
 /* line 608, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_grid.scss */
 .x-tbar-page-last {
@@ -5885,7 +5894,7 @@ textarea.x-form-invalid-field {
 
 /* line 37, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header {
-  padding: 10px 4px 15px 40px; }
+  padding: 20px 4px 15px 40px; }
 
 /* line 42, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-header-icon,
@@ -5992,12 +6001,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(top, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(top, #8ec038, #479e00);
+  background-image: -o-linear-gradient(top, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(top, #8ec038, #479e00);
+  background-image: linear-gradient(top, #8ec038, #479e00);
   -moz-box-shadow: #c7ee99 0 1px 0px 0 inset;
   -webkit-box-shadow: #c7ee99 0 1px 0px 0 inset;
   -o-box-shadow: #c7ee99 0 1px 0px 0 inset;
@@ -6030,7 +6039,7 @@ textarea.x-form-invalid-field {
 .x-panel-body-default {
   background: white;
   border-color: #bec9d0;
-  color: #5e6a80;
+  color: #312e25;
   border-width: 1px;
   border-style: solid; }
 
@@ -6048,12 +6057,12 @@ textarea.x-form-invalid-field {
 .x-panel-header-default-right {
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(right, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(right, #8ec038, #479e00);
+  background-image: -o-linear-gradient(right, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(right, #8ec038, #479e00);
+  background-image: linear-gradient(right, #8ec038, #479e00); }
 
 /* line 367, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_panel.scss */
 .x-panel-collapsed .x-panel-header-default-top {
@@ -6173,12 +6182,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(top, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(top, #8ec038, #479e00);
+  background-image: -o-linear-gradient(top, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(top, #8ec038, #479e00);
+  background-image: linear-gradient(top, #8ec038, #479e00);
   -moz-box-shadow: #c7ee99 0 1px 0px 0 inset;
   -webkit-box-shadow: #c7ee99 0 1px 0px 0 inset;
   -o-box-shadow: #c7ee99 0 1px 0px 0 inset;
@@ -6211,7 +6220,7 @@ textarea.x-form-invalid-field {
 .x-panel-body-default-framed {
   background: #b9e586;
   border-color: #bec9d0;
-  color: #5e6a80;
+  color: #312e25;
   border-width: 0;
   border-style: solid; }
 
@@ -6229,12 +6238,12 @@ textarea.x-form-invalid-field {
 .x-panel-header-default-framed-right {
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(right, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(right, #8ec038, #479e00);
+  background-image: -o-linear-gradient(right, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(right, #8ec038, #479e00);
+  background-image: linear-gradient(right, #8ec038, #479e00); }
 
 /* line 58, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-panel-default-framed {
@@ -6318,12 +6327,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(top, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(top, #8ec038, #479e00);
+  background-image: -o-linear-gradient(top, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(top, #8ec038, #479e00);
+  background-image: linear-gradient(top, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-top-mc {
@@ -6394,12 +6403,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(right, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(right, #8ec038, #479e00);
+  background-image: -o-linear-gradient(right, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(right, #8ec038, #479e00);
+  background-image: linear-gradient(right, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-right-mc {
@@ -6471,12 +6480,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(top, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(top, #8ec038, #479e00);
+  background-image: -o-linear-gradient(top, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(top, #8ec038, #479e00);
+  background-image: linear-gradient(top, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-bottom-mc {
@@ -6547,12 +6556,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(right, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(right, #8ec038, #479e00);
+  background-image: -o-linear-gradient(right, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(right, #8ec038, #479e00);
+  background-image: linear-gradient(right, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-left-mc {
@@ -6681,12 +6690,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(top, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(top, #8ec038, #479e00);
+  background-image: -o-linear-gradient(top, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(top, #8ec038, #479e00);
+  background-image: linear-gradient(top, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-top-mc {
@@ -6757,12 +6766,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(right, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(right, #8ec038, #479e00);
+  background-image: -o-linear-gradient(right, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(right, #8ec038, #479e00);
+  background-image: linear-gradient(right, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-right-mc {
@@ -6834,12 +6843,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(top, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(top, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(top, #8ec038, #479e00);
+  background-image: -o-linear-gradient(top, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(top, #8ec038, #479e00);
+  background-image: linear-gradient(top, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-bottom-mc {
@@ -6910,12 +6919,12 @@ textarea.x-form-invalid-field {
   border-style: solid;
   background-image: none;
   background-color: #afe76d;
-  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #3f9b34), color-stop(33.333%, #97cb5c), color-stop(66.667%, #a6de65), color-stop(100%, #eef1f1));
-  background-image: -webkit-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -moz-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -o-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: -ms-linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1);
-  background-image: linear-gradient(right, #3f9b34, #97cb5c, #a6de65, #eef1f1); }
+  background-image: -webkit-gradient(linear, 100% 50%, 0% 50%, color-stop(0%, #8ec038), color-stop(100%, #479e00));
+  background-image: -webkit-linear-gradient(right, #8ec038, #479e00);
+  background-image: -moz-linear-gradient(right, #8ec038, #479e00);
+  background-image: -o-linear-gradient(right, #8ec038, #479e00);
+  background-image: -ms-linear-gradient(right, #8ec038, #479e00);
+  background-image: linear-gradient(right, #8ec038, #479e00); }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-panel-header-default-framed-collapsed-left-mc {
@@ -7505,12 +7514,12 @@ textarea.x-form-invalid-field {
   border-color: #bec9d0;
   background-image: none;
   background-color: #b3df7b;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #eef1f1), color-stop(100%, #e8e9ea));
-  background-image: -webkit-linear-gradient(top, #eef1f1, #e8e9ea);
-  background-image: -moz-linear-gradient(top, #eef1f1, #e8e9ea);
-  background-image: -o-linear-gradient(top, #eef1f1, #e8e9ea);
-  background-image: -ms-linear-gradient(top, #eef1f1, #e8e9ea);
-  background-image: linear-gradient(top, #eef1f1, #e8e9ea); }
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f5f3ed), color-stop(100%, #f5f3e5));
+  background-image: -webkit-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -moz-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -o-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: -ms-linear-gradient(top, #f5f3ed, #f5f3e5);
+  background-image: linear-gradient(top, #f5f3ed, #f5f3e5); }
 
 /* line 151, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/widgets/_toolbar.scss */
 .x-nlg .x-toolbar-default {
@@ -7633,11 +7642,11 @@ textarea.x-form-invalid-field {
   padding: 4px 4px 4px 4px;
   border-width: 1px;
   border-style: solid;
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-default-mc {
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 104, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nbr .x-window-default {
@@ -7722,11 +7731,11 @@ textarea.x-form-invalid-field {
   padding: 5px 5px 0 5px;
   border-width: 1px;
   border-style: solid;
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-top-mc {
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 104, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-top {
@@ -7791,11 +7800,11 @@ textarea.x-form-invalid-field {
   padding: 5px 5px 5px 0;
   border-width: 1px;
   border-style: solid;
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-right-mc {
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 104, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-right {
@@ -7860,11 +7869,11 @@ textarea.x-form-invalid-field {
   padding: 0 5px 5px 5px;
   border-width: 1px;
   border-style: solid;
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-bottom-mc {
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 104, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-bottom {
@@ -7929,11 +7938,11 @@ textarea.x-form-invalid-field {
   padding: 5px 0px 5px 5px;
   border-width: 1px;
   border-style: solid;
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 91, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nlg .x-window-header-default-left-mc {
-  background-color: #a8cc7f; }
+  background-color: #a5db6a; }
 
 /* line 104, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/mixins/_frame.scss */
 .x-nbr .x-window-header-default-left {
@@ -8003,7 +8012,7 @@ textarea.x-form-invalid-field {
 
 /* line 2, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/util/_messagebox.scss */
 .x-message-box .x-window-body {
-  background-color: #a8cc7f;
+  background-color: #a5db6a;
   border: none; }
 
 /* line 7, ../../../../../../../../vendor/hatimeria/HatimeriaExtJS/src/vendor/extjs-4.0.7/resources/themes/stylesheets/ext4/default/util/_messagebox.scss */

@@ -18,22 +18,17 @@ root {
 .hatimeria-main-menu .x-grid-row .x-grid-cell-inner{
     height: 35px;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: normal;
+}
+.hatimeria-main-menu .x-grid-row .x-grid-cell{
+    padding-left: 15px;
+    border-radius: 10px; 
 }
 .hatimeria-main-menu .x-grid-cell-inner {
     padding: 9px;
 }
-.x-tree-panel .x-grid-row .x-grid-cell{
-    background: #EDF0F1;
-    text-shadow: 0 1px 0 white;
-    border-bottom: 1px solid #BEC9D0;
-    border-top: 1px solid white;
-    color: #5E6A80;
-}
-.x-tree-panel .x-grid-row .x-grid-cell:hover{
-    background: #A1A1A1;
-    color: white;
-    text-shadow: 0 1px 0 gray;
+.x-grid-header-ct span{
+    font-weight: bold;
 }
 .hatimeria-main-menu #logo{
     text-align: center;
@@ -51,17 +46,20 @@ root {
 .x-grid-row .x-grid-row-selected{
     font-size: 8px;
 }
+.x-grid-row.x-grid-row-selected .x-grid-cell{
+    color: white;
+}
 .x-unselectable {
     font-size: 12px;
 }
 .x-window-header-text-default {
     text-shadow: 1px 1px gray;
 }
-#logo > img, #logo > p{
+#hatimeria-powered-by img, #hatimeria-powered-by p{
     float: left;
     padding: 0 5px;
 }
-#logo > a{
+#hatimeria-powered-by a{
     color: #4CA241;
 }
 .x-message-box .x-window-body{

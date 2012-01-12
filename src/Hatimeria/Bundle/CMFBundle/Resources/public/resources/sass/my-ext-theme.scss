@@ -6,46 +6,64 @@ $include-default: false;
 $base-color: #A6DE65;
 $color: #9C9C9C;
 $font-size: 12px;
-$panel-body-color: #5E6A80;
-//$base-color-button: #9A8BD1;
-$base-color-active: #BFBFBF;
+$panel-body-color: #312E25;
+$base-color-active: #759E2E;
 
 
 //buttons
 $button-small-font-weight: bold !default;
-//$button-default-base-color: adjust-color($base-color, $hue: 0deg, $saturation: 50.556%, $lightness: 15.745%) !default;
-//$button-default-base-color-over: adjust-color($base-color, $hue: 0deg, $saturation: 46.444%, $lightness: 13.588%) !default;
-//$button-default-base-color-pressed: adjust-color($base-color, $hue: -0.725deg, $saturation: -1.556%, $lightness: -3.725%) !default;
-//$button-default-background-color: $button-default-base-color;
 $button-default-color: white;
 
-$button-default-base-color: adjust-color(#409C34, $hue: 5deg, $saturation: -15.556%, $lightness: 5.745%) !default;
+$button-default-base-color: adjust-color(#409C34, $hue: 5deg, $saturation: -15.556%, $lightness: 5.745O%) !default;
 $button-default-base-color-over: adjust-color(#409C34, $hue: -30deg, $saturation: 30.444%, $lightness: 6.588%) !default; //E4F3FF
 $button-default-base-color-focus: $button-default-base-color-over !default;
 $button-default-base-color-pressed: adjust-color(#409C34, $hue: -0.725deg, $saturation: -9.556%, $lightness: -3.725%) !default; //B6CBE4
 
+$button-default-background-gradient: color-stops(#8BBE33, #4B9F01) !default;
+$button-default-background-gradient-over: color-stops(#F5F3ED, #F5F3E5) !default;
+$button-default-background-gradient-focus: color-stops(#8CBE35, #86BB2F) !default;
+$button-default-background-gradient-pressed: color-stops(#8BBE33, #4B9F01) !default;
+$button-default-background-gradient-disabled: color-stops(#8BBE33, #4B9F01) !default;
+
+$button-default-color-over: #4B9F01 !default;
+$button-default-color-focus: #FFFFFF !default;
+
+
 //panel
-$panel-header-background-gradient: color-stops(#3F9B34, #97CB5C, #A6DE65, #EEF1F1);
+$panel-header-background-gradient: color-stops(#8EC038, #479E00);
 $panel-header-font-size: ceil($font-size * 1.4) !default; 
-$panel-header-padding: 10px 4px 15px 40px !default;
+$panel-header-padding: 20px 4px 15px 40px !default;
 $panel-header-color: white;
 $panel-border-color: #BEC9D0;
 $panel-header-border-width: 0px !default;
 
 
 //toolbar
-$toolbar-background-gradient: color-stops(#EEF1F1, #E8E9EA);
+$toolbar-background-gradient: color-stops(#F5F3ED, #F5F3E5);
 
 //grid
 $grid-row-cell-color: null !default;
 $grid-row-cell-font: normal ceil($font-size * .11) !default;
 $grid-row-cell-selected-border-color: adjust-color($base-color-active, $hue: 6.952deg, $saturation: 5.848%, $lightness: -6.471%) !default;
-$grid-row-cell-selected-background-color: adjust-color($base-color-active, $hue: 3.188deg, $saturation: 0.542%, $lightness: 7.843%) !default;
+$grid-row-cell-selected-background-color: adjust-color($base-color-active, $hue: 5.188deg, $saturation: 0.542%, $lightness: 4.843%) !default;
+
+$grid-row-cell-over-background-color: adjust-color(#97CC3C, $hue: 0deg, $saturation: 0%, $lightness: 1.392%) !default;
+$grid-row-cell-over-background-gradient: color-stops(#97CC3C, #8ABA36) !default;
+
+$grid-header-background-gradient: color-stops(#F5F3ED, #F5F3E5) !default;
+$grid-header-background-color: color-stops(#F5F3ED, #F5F3E5) !default;
+$grid-header-color: #479E00 !default;
+
+
+$grid-header-over-border-color: adjust-color(#C0D4ED, $hue: -0.175deg, $saturation: 25.296%, $lightness: -2.549%) !default;
+$grid-header-over-background-color: $grid-header-over-border-color !default;
+$grid-header-over-background-gradient: color-stops(#AAE543, #90C239) !default;
+
 
 //window
 $window-header-padding: 10px 10px 0 !default;
 $window-header-color: #FFFFFF !default;
-
+$window-background-color: adjust-color($base-color, $hue: 1.267deg, $saturation: -3.309%, $lightness: 0.569%) !default;
 
 
 @import 'ext4/default/all';
