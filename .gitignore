@@ -6,6 +6,7 @@ tests/log/report/*.*
 tests/src/Tests/cache/*
 tests/src/Tests/logs/*
 web/bundles/*
+web/media
 *~
 *.swp
 *.orig

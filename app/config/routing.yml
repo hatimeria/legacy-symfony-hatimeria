@@ -43,4 +43,8 @@ fos_js_routing:
     resource: "@FOSJsRoutingBundle/Resources/config/routing/routing.xml"
     
 _bazinga_exposetranslation:
-    resource: "@BazingaExposeTranslationBundle/Resources/config/routing/routing.yml"    
+    resource: "@BazingaExposeTranslationBundle/Resources/config/routing/routing.yml"
+
+cms_page:
+    resource: @ZenstruckContentBundle/Resources/config/routing.xml
+    prefix:   /info

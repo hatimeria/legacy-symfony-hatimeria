@@ -6,13 +6,13 @@ use Symfony\Component\Validator\Constraints as Assert;
 
 use Doctrine\ORM\Mapping as ORM;
 
-use Zenstruck\Bundle\CMSBundle\Entity\Node;
+use Hatimeria\Bundle\CMFBundle\Entity\ContentNode;
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="cms_page")
  */
-class CmsPage extends Node
+class CmsPage extends ContentNode
 {
     /**
      * @Assert\NotBlank()

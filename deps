@@ -99,10 +99,9 @@
     git=git://github.com/willdurand/BazingaExposeTranslationBundle.git
     target=/bundles/Bazinga/ExposeTranslationBundle
 
-[ZenstruckCMSBundle]
-    git=git://github.com/hatimeria/ZenstruckCMSBundle.git
-    dev=git@github.com:hatimeria/ZenstruckCMSBundle.git
-    target=/bundles/Zenstruck/Bundle/CMSBundle
+[ZenstruckContentBundle]
+    git=git://github.com/kbond/ZenstruckContentBundle.git
+    target=/bundles/Zenstruck/Bundle/ContentBundle
 
 [snappy]
     git=git://github.com/KnpLabs/snappy.git
