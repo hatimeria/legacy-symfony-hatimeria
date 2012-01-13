@@ -27,7 +27,7 @@ Specify a command to run:
 
  --reinstall: Removes vendor before action (used only with install, update)
 
- -h:  Shows only hatimeria vendors (used only with stats)
+ -h:  Shows only hatimeria vendors (used with stats and install)
  -v:  Show witch files are uncommited (used only with stats)
  -nf: Doesn't fatch repository during repository check - can cause origin diff to be invalid (used only with stats)
 
@@ -62,6 +62,10 @@ if ("update" === $command) {
     die('If you aint freak, you cant touch this!!!');
 }
 
+if (in_array('-h', $argv) && in_array($command, array('lock', 'update'))) {
+    die('-h can be used only with install and stats mode');
+}
+
 // versions
 $versions = array();
 if ('install' === $command && file_exists($rootDir.'/deps.lock')) {
@@ -85,6 +89,10 @@ foreach ($deps as $name => $dep) {
 
     // install dir
     $installDir = isset($dep['target']) ? $vendorDir.'/'.$dep['target'] : $vendorDir.'/'.$name;
+
+    if (in_array('-h', $argv) && (false === strpos(strtolower($name), 'hatimeria'))) {
+        continue;
+    }
     
     if ('install' === $command || 'update' === $command) {
         if (in_array('--reinstall', $argv)) {
@@ -120,9 +128,6 @@ foreach ($deps as $name => $dep) {
 
         system(sprintf('cd %s && git fetch origin && git reset --hard %s', escapeshellarg($installDir), escapeshellarg($rev)));
     } elseif ('stats' === $command) {
-        if (in_array('-h', $argv) && (false === strpos(strtolower($name), 'hatimeria'))) {
-            continue;
-        }
         $result = array();
         echo "> Checking $name\n";
         if (!in_array('-nf', $argv)) {
