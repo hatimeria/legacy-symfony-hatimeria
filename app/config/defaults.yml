@@ -10,7 +10,10 @@ parameters:
   database_port: 
   database_name: 
   secret: test123
+  extjs_init_modules:
+    tour: Hatimeria.tour.view.TourMainView
   web_profiler_toolbar: true
+  hatimeria_newsletter_sender: newsletter@hatimeria.pl
   # secure app_dev.php
   secure_dev: true
   locale: en

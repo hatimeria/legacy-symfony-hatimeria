@@ -131,6 +131,11 @@
     dev=git@github.com:hatimeria/HatimeriaAdminBundle.git
     target=/bundles/Hatimeria/AdminBundle
 
+[HatimeriaNewsletterBundle]
+    git=git://github.com/hatimeria/HatimeriaNewsletterBundle.git
+    dev=git@github.com:hatimeria/HatimeriaNewsletterBundle.git
+    target=/bundles/Hatimeria/NewsletterBundle
+
 [HatimeriaExtJS]
   git=git://github.com/hatimeria/HatimeriaExtJS.git
   dev=git@github.com:hatimeria/HatimeriaExtJS.git

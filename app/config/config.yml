@@ -94,3 +94,6 @@ knp_snappy:
         enabled:    false
         binary:     /usr/local/bin/wkhtmltoimage
         options:    []      
+        
+hatimeria_newsletter:
+    sender: %hatimeria_newsletter_sender%
