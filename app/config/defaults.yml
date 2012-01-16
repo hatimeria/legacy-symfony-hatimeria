@@ -11,6 +11,8 @@ parameters:
   database_name: 
   secret: test123
   web_profiler_toolbar: true
+  # secure app_dev.php
+  secure_dev: true
   locale: en
   admin_model_cms: "HatimeriaCMFBundle:CmsPage"
   admin_model_cms_class: "Hatimeria\Bundle\CMFBundle\Entity\CmsPage"
