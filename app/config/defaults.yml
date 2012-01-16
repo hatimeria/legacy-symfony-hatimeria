@@ -25,8 +25,5 @@ parameters:
       text: Newsletter
     cms:
       text: Pages
-    user:
+    users:
       text: Users
-      children:
-        users:
-          text: All

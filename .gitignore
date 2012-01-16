@@ -17,4 +17,4 @@ vendor/*
 .settings/*
 nbproject/*
 app/config/custom.yml
-web/media
+web/compiled
