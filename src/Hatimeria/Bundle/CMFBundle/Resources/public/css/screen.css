@@ -9,17 +9,9 @@ body{
     overflow-y: scroll;
 }
 
-p:first-child, .points p, #landing p{
-    text-indent: 2em;
-}
-
 #container{
     width: 990px;
     margin: 40px auto;
-}
-
-.index #footer{
-    margin-top: 100px;
 }
 
 #footer{
@@ -31,135 +23,29 @@ p:first-child, .points p, #landing p{
     font-size: 13px;
     float: left;
 }
-#language{
-    margin-top: 100px;
-    border-top-style: dashed;
-    border-width: 1px;
-    border-color: #919191;
-    color: #A2D765;
-    font-size: 16px;
-    float: right;
-}
-#free{
-    clear: both;
-}
-#language>a{
-    padding-top: 10px;
-    color: #A2D765;
-    text-decoration: none;
-    display: block;
-}
-#language > a > span{
-    color: #479F3A;
-    text-decoration: none;
-}
-.points{
-    width: 720px;
-    color: #919191; 
-    float: right;
-}
-.point{
-    line-height: 160%;
-    padding-left: 20px;
-}
-.point > p{
-    margin: 0px;
-    line-height: 160%;
-}
-.point > ul{
-    padding-left: 60px;
-    padding-top: 5px;
-    margin: 0px;
-}
-.point > ul > li{
-    line-height: 100%;
-}
-.strong1{
-    color: #786CA3;
-}
-.strong2{
-    color: #4CA241;
-}
+
 img{
    border: 0px;
    margin: 5px;
 }
-.index h1, #logo{
-    width: 220px;
-    margin: 0px;
+
+h1 a {
+    display: block;
     float: left;
-    margin-top: 11px;
+    margin-right: 20px;
 }
 
-.index h1{
-    margin-right: 35px;
+h1 {
+    color: #786CA3;
+    line-height: 63px;
 }
 
-#header > span{
-    float: left;
-    font-size: 32px;
-    margin: 21px 10px 0 0;
-}
-
-#logo img{
-    margin: 0px;
-}
-
-#landing #logo{
-    margin-right: 13px;
-}
-
-#landing #container{
-    margin-top: 5px;
-}
-
-#landing h1{
-    float: left;
-}
-
-#header{
-    float: left;
-    margin-bottom: 20px;
-    width: 100%;
-}
-
-#landing .side{
-    float: right;
-}
-
-.points h2{
-    padding: 7px;
-    cursor: pointer;
-}
-.points h2:hover{
-    background-color: #f9f9f9;
-}
 a{
     color:#4CA241; 
 }
 li{
+    font-size: 12px;
     padding-bottom: 10px;
-}
-
-#landing #footer{
-    width: 100%;
-    text-align: left;
-    border: none;
-    margin-top: 30px;
-    padding-bottom: 50px;
-    font-style: italic;
-    font-size: 16px;
-    clear: both;
-    float: left;
-}
-
-.external{
-    color: inherit;
-}
-
-a.landing{
-    font-size: 13pt;
-    line-height: 200%;
 }
 
 #content{
@@ -168,220 +54,4 @@ a.landing{
 }
 .clear-box{
     clear: both;
-}
-#box-text > ul > li{
-    color: black;
-    padding: 0;
-}
-.error {
-    clear: left;
-    width: 320px;
-    padding: 4px 0 0 0;
-    color: #9E0500;
-    font-weight: bold;
-    font-size: 12px;
-}
-.info {
-    background-color: #288417;
-    color: #F2E5F9;
-    padding: 5px;
-    font-weight: bold;
-    font-size: 12px;
-    margin: 0px 15px 8px 15px;
-}
-#header > h1 > img {
-    margin-top: -15px;
-}
-h2.title {
-    color: black;
-}
-h2.title > p {
-    margin: 0px;
-    font-size: 15px;
-    color: #666;
-    margin-left: -30px;
-    margin-top: 10px;
-    float: left;
-}
-#flag{
-    margin-top: -15px;
-}
-.box-left {
-    float: left;
-    width: 45%;
-}
-.box-right {
-    float: right;
-    width: 45%;
-    color: black;
-}
-#content > .box-left > p, #content > .box-right > p, #content > #client > p{
-    text-indent: 0;
-}
-#content > .box-left > p, #content > .box-right > p, #content > #client > p, .box-left ul li{
-    font-size: 15px;
-}
-.box-right img {
-    float: left;
-}
-h3.color{
-    background-color: #84D02D;
-    color: white;
-    padding: 10px;
-    float: left;
-}
-.box-left h3, .box-right h3 {
-    padding: 10px 5px;
-    width: 100%;
-}
-#client {
-    text-align: center;
-}
-#client h3, #reference h3, #contact h3 {
-    float: left;
-    margin: 0;
-    margin-right: 10px;
-}
-#client p {
-    color: black;
-    text-align: left;
-}
-.box-left > span {
-    font-size: 15px;
-    font-style: italic;
-}
-.box-left >ul {
-    padding-left: 15px;
-    color: black;
-    list-style-type: square;
-}
-.box-left strong, .box-right strong{
-    background-color: #FFFFCC;
-}
-#reference > ul {
-    float: left;
-    margin-left: 20px;
-    margin-top: 0;
-    list-style: none;
-}
-#reference > ul > li {
-    float: left;
-}
-#reference > ul > li > img {
-    width: 110px;
-    height: 140px;
-}
-#contact > p {
-    padding-top: 10px;
-    color: black;
-    font-weight: bold;
-}
-#address {
-    color: black;
-}
-#address ul li {
-    padding: 0;
-}
-#address a {
-    color: black;
-    text-decoration: none;
-}
-.border {
-    background-image: url('/assets/img/border.png');
-    background-repeat: no-repeat;
-    height: 20px;
-    margin-bottom: 20px;
-}
-.color-bold {
-    font-weight: bold;
-    background-color: #FFFFCC;
-}
-#test span.color-bold{
-    padding: 5px;
-    font-size: 20px;
-    font-style: normal;
-}
-h2.color-bold{
-    color: black;
-    font-size: 30px;
-    font-weight: bold;
-    margin: 0;
-    text-indent: 0px;
-}
-#title-ecommerce > p{
-    color: black;
-    text-indent: 0px;
-    font-weight: bold;
-}
-#title-ecommerce > p > span{
-    color: #3F9C34;
-    text-decoration: underline;
-}
-#project p.color-1, #sale p.color-1{
-    color: #3D9E0D;
-    font-weight: bold;
-    text-indent: 30px;
-    background-image: url('/assets/img/checkbox1.png');
-    background-repeat: no-repeat;
-    padding-top: 3px;
-}
-#project p.color-2, #test .color-2{
-    color: #F83C3C;
-    font-weight: bold;
-    text-indent: 30px;
-    background-image: url('/assets/img/checkbox2.png');
-    background-repeat: no-repeat;
-    padding-top: 3px;
-}
-#project p, #project span, #test p, #sale p, #landing-pages p, #customer p, #social p, #group p, #push-shopping p, #mobile p{
-    text-indent: 0px;
-}
-#project a, #test a, #sale a, #landing-pages a, #title-ecommerce > h2.color-bold > a{
-    color: #0E0EFC;
-    text-decoration: underline;
-}
-.color-bold a{
-    font-style: italic;
-}
-#project p b, #test p b{
-    font-size: 20px;
-}
-#push-shopping ul>:first-child{
-    list-style: none;
-    text-indent: -20px;
-}
-q{
-    font-style: italic;
-}
-#push-shopping > span, #mobile > span{
-    margin-left: 155px;
-    font-size: 12px;
-    font-style: italic;
-}
-#address p.color-bold{
-    padding: 10px;
-    font-size: 30px;
-    float: left;
-    margin: 0px;
-    text-indent: 0px;
-}
-#address.frame{
-    border: 1px dashed grey;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 10px;
-}
-#test > p > b > span.color-bold{
-    font-size: 27px;
-}
-#test span, #sale span, #landing-pages span{
-    font-style: italic;
-}
-.box-text{
-    width: 500px;
-    color: black;
-}
-.point > p > strong > a{
-    text-decoration: none;
-    color: #919191;
 }
