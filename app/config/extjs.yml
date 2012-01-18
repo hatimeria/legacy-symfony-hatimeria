@@ -1,5 +1,6 @@
 hatimeria_ext_js:
   signin_route: fos_user_security_login
+  locales: [en, pl]
   javascript_mode:  ext-all-dev
   mappings:
     Hatimeria\Bundle\CMFBundle\Entity\User:

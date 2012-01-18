@@ -21,12 +21,12 @@ parameters:
   admin_model_cms_class: "Hatimeria\Bundle\CMFBundle\Entity\CmsPage"
   admin_loader:
     HatimeriaBank: '/bundles/hatimeriabank/js'  
-  admin_menu:
-    main:
-      text: Dashboard
-    newsletter:
-      text: Newsletter
-    cms:
-      text: Pages
-    users:
-      text: Users
+  admin_menu: 
+    -
+      code: main
+    - 
+      code: newsletter
+    - 
+      code: cms
+    - 
+      code: users

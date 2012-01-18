@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{% block title %}Hatimeria Symfony Distribution{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('bundles/hatimeriacmf/css/screen.css') }}" type="text/css" media="all" />
+    </head>
+    <body>
+        <div id="container">
+            <h1>Hatimeria Symfony Distribution</h1>
+            <h2>Resources</h2>
+            <a href="/compiled/js/docs/index.html">Javascript docs</a>
+            <h2>Demonstration</h2>
+            <a href="{{ path('hatimeria_admin') }}">Backend</a>
+            <h2>Features</h2>
+            <h3>Framework</h3>
+            <ul>
+                <li>Routing exposed for extjs</li>
+                <li>Translations exposed for extjs</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+                <li>Ajax login</li>
+                <li>User switch</li>
+                <li>User manager</li>
+                <li>Newsletter manager</li>
+                <li>Cms manager</li>
+            </ul>
+        </div>
+    </body>
+</html>
