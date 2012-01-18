@@ -8,7 +8,7 @@ hatimeria_ext_js:
         default: [id, username, email, enabled]
     Hatimeria\Bundle\CMFBundle\Entity\CmsPage:
       fields:
-        default: [id, title, path, body, author, publish_from, publish_to, created_at, is_published, meta_description, meta_keywords]
+        default: [id, title, path, body, author, publish_from, publish_to, updated_at, created_at, is_published, meta_description, meta_keywords]
     Hatimeria\NewsletterBundle\Entity\Mailing:
       fields:
         default: [id, subject, created_at, sent, body]
