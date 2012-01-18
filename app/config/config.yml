@@ -14,7 +14,9 @@ framework:
     # due to ajax form handling csrf protection is disabled, @todo do it better way
     csrf_protection: false
     validation:      { enable_annotations: true }
-    templating:      { engines: ['twig'] } #assets_version: SomeVersionScheme
+    templating:      
+      engines: ['twig'] 
+      assets_version: SomeVersionScheme
     session:
         default_locale: %locale%
         auto_start:     true
