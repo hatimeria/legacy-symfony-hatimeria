@@ -5,7 +5,7 @@
         <title>{% block title %}Hatimeria CMF{% endblock %}</title>
         <link rel="stylesheet" href="{{ asset('bundles/hatimeriaadmin/resources/css/my-ext-theme.css') }}" type="text/css" media="all" />
         <link rel="stylesheet" href="{{ asset('bundles/hatimeriaadmin/resources/css/ext-custom.css') }}" type="text/css" media="all" />
-        {% render "HatimeriaExtJSBundle:Default:headers" %}
+        {% render "HatimeriaExtJSBundle:Javascript:headers" %}
         <script type="text/javascript">
             Ext.Loader.setPath('HatimeriaAdmin', '/bundles/hatimeriaadmin/js');
         </script>        
@@ -20,6 +20,6 @@
         {% block body %}{% endblock %}
         {% block fos_user_content %}{% endblock %}
         {% block javascripts %}{% endblock %}
-        {% render "HatimeriaExtJSBundle:Default:variables" %}
+        {% render "HatimeriaExtJSBundle:Javascript:variables" %}
     </body>
 </html>

@@ -17,14 +17,13 @@ parameters:
   admin_loader:
     HatimeriaBank: '/bundles/hatimeriabank/js'  
   admin_menu:
-    main:
-      text: Dashboard
-    newsletter:
-      text: Newsletter
-    cms:
-      text: Pages
-    user:
-      text: Users
-      children:
-        users:
-          text: All
+    -
+      code: main
+    -
+      code: newsletter
+    -
+      code: cms
+    -
+      code: users
+
+      
