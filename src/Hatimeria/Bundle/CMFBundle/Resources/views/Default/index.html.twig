@@ -1,1 +1,40 @@
-Hello {{ name }}!
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{% block title %}Hatimeria Symfony Distribution{% endblock %}</title>
+        <link rel="stylesheet" href="{{ asset('bundles/hatimeriacmf/css/screen.css') }}" type="text/css" media="all" />
+        <link href="http://www.hatimeria.com/assets/img/hatimeria.ico" type="image/ico" rel="shortcut icon" /> 
+    </head>
+    <body>
+        <div id="container">
+            <h1><a href="/"><img src="/bundles/hatimeriaadmin/images/hatimeria_v_220.png"/></a> Symfony Distribution</h1>
+            <p>Integrated Symfony, ExtJS and many bundles with admin backend.</p>
+            <p>Created and maintaned by <a href="http://hatimeria.com">Hatimeria</a>.</p>
+            <h2>Resources</h2>
+            <a href="/compiled/js/docs/index.html">Javascript documentation browser</a><br/>
+            <a href="https://github.com/hatimeria/hatimeria">Source code on github</a>
+            <h2>Demonstration</h2>
+            <p>Sign in with login: <b>demo@hatimeria.com</b>, password: <b>hatimeria</b></p>
+            <a href="{{ path('hatimeria_admin') }}">Sign in to see Backend demo</a>
+            <h2>Features</h2>
+            <h3>Framework</h3>
+            <ul>
+                <li>Routing exposed for extjs (integrated with <a href="https://github.com/FriendsOfSymfony/FOSJsRoutingBundle">FOSJsRoutingBundle</a>)</li>
+                <li>Translations exposed for extjs (integrated with <a href="https://github.com/willdurand/BazingaExposeTranslationBundle">BazingaExposeTranslationBundle</a>)</li>
+                <li>Ajax operations (integrated with <a href="https://github.com/hatimeria/HatimeriaExtJSBundle">HatimeriaExtJSBundle</a>)</li>
+                <li>Powerfull CRUD implementation</li>
+                <li>One compiled javascript for production</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+                <li>Ajax login</li>
+                <li>User switch</li>
+                <li>Language switch</li>
+                <li>User manager</li>
+                <li>Newsletter manager</li>
+                <li>Cms manager</li>
+            </ul>
+        </div>
+    </body>
+</html>

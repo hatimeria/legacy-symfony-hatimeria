@@ -1,12 +1,16 @@
 hatimeria_ext_js:
   signin_route: fos_user_security_login
+  locales: [en, pl]
   javascript_mode:  ext-all-dev
   compiled: false
   locales: ["pl"]
   mappings:
     Hatimeria\Bundle\CMFBundle\Entity\User:
       fields:
-        default: [id, username, email]
+        default: [id, username, email, enabled]
     Hatimeria\Bundle\CMFBundle\Entity\CmsPage:
       fields:
-        default: [id, title, path, body, author, publish_from, publish_to, created_at, is_published, meta_description, meta_keywords]
+        default: [id, title, path, body, author, publish_from, publish_to, updated_at, created_at, is_published, meta_description, meta_keywords]
+    Hatimeria\NewsletterBundle\Entity\Mailing:
+      fields:
+        default: [id, subject, created_at, sent, body]

@@ -1,5 +1,6 @@
 HatimeriaAdminBundle:
     resource: "@HatimeriaAdminBundle/Resources/config/routing.xml"
+    prefix: admin
     
 HatimeriaExtJSBundleDirect:
     resource: "@HatimeriaExtJSBundle/Resources/config/routing/direct.yml"    
@@ -13,13 +14,8 @@ HatimeriaAdminBundleMedia:
 
 homepage:
     pattern: /
-    defaults: { _controller: HatimeriaAdminBundle:Admin:index}
+    defaults: { _controller: HatimeriaCMFBundle:Default:index}
     
-    
-test:
-    pattern: /test
-    defaults: { _controller: HatimeriaAdminBundle:Test:index}
-
 fos_user_security:
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
 

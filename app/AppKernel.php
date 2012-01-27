@@ -27,6 +27,7 @@ class AppKernel extends Kernel
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
+            new Hatimeria\NewsletterBundle\HatimeriaNewsletterBundle(),
             new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),
             new \Hatimeria\FrameworkBundle\HatimeriaFrameworkBundle()
         );

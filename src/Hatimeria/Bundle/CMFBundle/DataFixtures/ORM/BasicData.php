@@ -46,6 +46,13 @@ class BasicData extends HatimeriaFixtures
         $user->setEnabled(true);
         $this->admin = $user;
         $this->container->get("fos_user.user_manager")->updateUser($user);
+        
+        $user = new User;
+        $user->setEmail('user@hatimeria.com');
+        $user->setPlainPassword("hatimeria");
+        $user->setEnabled(true);
+        $this->admin = $user;
+        $this->container->get("fos_user.user_manager")->updateUser($user);        
     }
     
 }

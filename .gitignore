@@ -17,4 +17,7 @@ vendor/*
 .settings/*
 nbproject/*
 app/config/custom.yml
-web/media
+web/compiled
+app/config/deploy*
+Capfile
+

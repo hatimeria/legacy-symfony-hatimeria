@@ -6,13 +6,6 @@
         <link rel="stylesheet" href="{{ asset('bundles/hatimeriaadmin/resources/css/my-ext-theme.css') }}" type="text/css" media="all" />
         <link rel="stylesheet" href="{{ asset('bundles/hatimeriaadmin/resources/css/ext-custom.css') }}" type="text/css" media="all" />
         {% render "HatimeriaExtJSBundle:Javascript:headers" %}
-        <script type="text/javascript">
-            Ext.Loader.setPath('HatimeriaAdmin', '/bundles/hatimeriaadmin/js');
-        </script>        
-        <script type="text/javascript" src="{{ path('fos_js_routing_js') }}"></script>
-        <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js') }}"></script>
-        <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js', { 'domain_name' : 'HatimeriaAdminBundle'}) }}"></script>
-        <script type="text/javascript" src="{{ url('bazinga_exposetranslation_js', { 'domain_name' : 'validators' }) }}"></script>
         {% block head %}{% endblock %}
     </head>
     <body>
