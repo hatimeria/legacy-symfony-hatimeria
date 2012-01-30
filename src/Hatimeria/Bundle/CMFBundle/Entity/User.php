@@ -2,14 +2,14 @@
 
 namespace Hatimeria\Bundle\CMFBundle\Entity;
 
-use FOS\UserBundle\Entity\User as BaseUser;
+use Hatimeria\AdminBundle\Entity\User as HatimeriaUser;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="fos_user")
  */
-class User extends BaseUser
+class User extends HatimeriaUser
 {
     /**
      * @ORM\Id
@@ -17,15 +17,4 @@ class User extends BaseUser
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     protected $id;
-
-    public function __construct()
-    {
-        parent::__construct();
-    }
-    
-    public function setEmail($v)
-    {
-        $this->setUsername($v);
-        $this->email = $v;
-    }
 }

@@ -7,7 +7,7 @@ hatimeria_ext_js:
   mappings:
     Hatimeria\Bundle\CMFBundle\Entity\User:
       fields:
-        default: [id, username, email, enabled]
+        default: [id, username, email, enabled, administrator, created_at, updated_at]
     Hatimeria\Bundle\CMFBundle\Entity\CmsPage:
       fields:
         default: [id, title, path, body, author, publish_from, publish_to, updated_at, created_at, is_published, meta_description, meta_keywords]
