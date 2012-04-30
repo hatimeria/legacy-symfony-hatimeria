@@ -3,7 +3,6 @@ hatimeria_ext_js:
   locales: [en, pl]
   javascript_mode:  ext-all-dev
   compiled: false
-  locales: ["pl"]
   mappings:
     Hatimeria\Bundle\CMFBundle\Entity\User:
       fields:
