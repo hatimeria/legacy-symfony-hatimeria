@@ -12,13 +12,12 @@ parameters:
   secret: test123
   web_profiler_toolbar: true
   hatimeria_newsletter_sender: newsletter@hatimeria.pl
+  monitoring_recipients: []
   # secure app_dev.php
   secure_dev: true
   locale: en
   admin_model_cms: "HatimeriaCMFBundle:CmsPage"
   admin_model_cms_class: "Hatimeria\Bundle\CMFBundle\Entity\CmsPage"
-  admin_loader:
-    HatimeriaBank: '/bundles/hatimeriabank/js'  
   admin_menu:
     -
       code: main
@@ -28,5 +27,9 @@ parameters:
       code: cms
     -
       code: users
+    -
+      code: monitoring
+      ns: HatimeriaMonitoring
+      text: Monitoring
 
 

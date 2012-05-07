@@ -25,11 +25,14 @@ class AppKernel extends Kernel
             new Zenstruck\Bundle\ContentBundle\ZenstruckContentBundle,
             new Symfony\Bundle\DoctrineFixturesBundle\DoctrineFixturesBundle,
             new Knp\Bundle\SnappyBundle\KnpSnappyBundle(),
+            new FOS\RestBundle\FOSRestBundle(),
+            new JMS\SerializerBundle\JMSSerializerBundle($this),
             new Hatimeria\ExtJSBundle\HatimeriaExtJSBundle,
             new Hatimeria\AdminBundle\HatimeriaAdminBundle(),
             new Hatimeria\NewsletterBundle\HatimeriaNewsletterBundle(),
             new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),
-            new \Hatimeria\FrameworkBundle\HatimeriaFrameworkBundle()
+            new \Hatimeria\FrameworkBundle\HatimeriaFrameworkBundle(),
+            new Hatimeria\MonitoringServerBundle\HatimeriaMonitoringServerBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

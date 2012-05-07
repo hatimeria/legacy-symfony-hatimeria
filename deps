@@ -111,6 +111,14 @@
     git=git://github.com/KnpLabs/KnpSnappyBundle.git 
     target=/bundles/Knp/Bundle/SnappyBundle
 
+[FOSRestBundle]
+    git=git://github.com/FriendsOfSymfony/FOSRestBundle.git
+    target=bundles/FOS/RestBundle
+
+[JMSSerializerBundle]
+    git=git://github.com/schmittjoh/JMSSerializerBundle.git
+    target=bundles/JMS/SerializerBundle
+
 [HatimeriaExtJSBundle]
     git=git://github.com/hatimeria/HatimeriaExtJSBundle.git
     dev=git@github.com:hatimeria/HatimeriaExtJSBundle.git
@@ -141,3 +149,17 @@
   dev=git@github.com:hatimeria/HatimeriaExtJS.git
   target=/hatimeria/HatimeriaExtJS
 
+[HatimeriaMonitoringServerBundle]
+  git=git://github.com/hatimeria/HatimeriaMonitoringServerBundle.git
+  dev=git@github.com:hatimeria/HatimeriaMonitoringServerBundle.git
+  target=/bundles/Hatimeria/MonitoringServerBundle
+
+[HatimeriaRemotelogBundle]
+  git=git://github.com/hatimeria/HatimeriaRemotelogBundle.git
+  dev=git@github.com:hatimeria/HatimeriaRemotelogBundle.git
+  target=/bundles/Hatimeria/RemotelogBundle
+
+[HatimeriaRemotelog]
+  git=git://github.com/hatimeria/remotelog.git
+  dev=git@github.com:hatimeria/remotelog.git
+  target=/remotelog

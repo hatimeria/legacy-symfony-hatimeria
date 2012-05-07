@@ -3,6 +3,9 @@ hatimeria_ext_js:
   locales: [en, pl]
   javascript_mode:  ext-all-dev
   compiled: false
+  translation_domains: [HatimeriaMonitoringBundle]
+  loader:
+    HatimeriaMonitoring: /bundles/hatimeriamonitoringserver/js
   mappings:
     Hatimeria\Bundle\CMFBundle\Entity\User:
       fields:
@@ -13,3 +16,18 @@ hatimeria_ext_js:
     Hatimeria\NewsletterBundle\Entity\Mailing:
       fields:
         default: [id, subject, created_at, sent, body]
+    Hatimeria\MonitoringServerBundle\Entity\Log:
+      list: logs
+      fields:
+        default:
+          - id
+          - created_at
+          - place
+          - message
+          - type
+          - stack_trace
+          - code
+          - url
+          - client_ip
+          - parameters
+          - hash

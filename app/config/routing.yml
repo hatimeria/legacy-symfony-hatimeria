@@ -44,3 +44,7 @@ _bazinga_exposetranslation:
 cms_page:
     resource: @ZenstruckContentBundle/Resources/config/routing.xml
     prefix:   /info
+
+hatimeria_monitoring_server:
+    resource: "@HatimeriaMonitoringServerBundle/Resources/config/routing.yml"
+    prefix: /api

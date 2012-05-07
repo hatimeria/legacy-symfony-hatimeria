@@ -62,7 +62,11 @@ swiftmailer:
 jms_security_extra:
     secure_controllers:  true
     secure_all_services: false
-    
+
+sensio_framework_extra:
+    view:   { annotations: false }
+    router: { annotations: true }
+
 fos_user:
     db_driver: orm
     firewall_name: main
@@ -99,3 +103,14 @@ knp_snappy:
         
 hatimeria_newsletter:
     sender: %hatimeria_newsletter_sender%
+
+fos_rest:
+    routing_loader:
+        default_format: json
+    view:
+        default_engine: twig
+        formats:
+            json: true
+        templating_formats:
+            json: false
+            html: true
