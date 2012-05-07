@@ -12,8 +12,19 @@ monolog:
         main:
             type:         fingers_crossed
             action_level: error
-            handler:      nested
-        nested:
+            handler:      group
+        group:
+            type: group
+            members:
+                - stream
+                - remote_buffer
+        remote_buffer:
+            type: buffer
+            handler: remotelog
+        remotelog:
+            type: service
+            id: remotelog
+        stream:
             type:  stream
             path:  %kernel.logs_dir%/%kernel.environment%.log
             level: debug

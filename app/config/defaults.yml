@@ -1,4 +1,6 @@
 parameters:
+  remotelog_host: "http://remotelogserver.localhost/app_dev.php"
+  remotelog_enabled: false
   mailer_transport: sendmail
   mailer_host: localhost
   mailer_user: 
