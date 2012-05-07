@@ -104,6 +104,14 @@ knp_snappy:
 hatimeria_newsletter:
     sender: %hatimeria_newsletter_sender%
 
+hatimeria_remotelog:
+    host: %remotelog_host%                               # (required) remotelog application server hos
+    place: 'Framework Remotelog test enviroment'         # (required) Some information about project to identify log
+    route: '/api/monitoring'                             # If you need you can provide more spcific path (concept)
+    level: ERROR                                         # You can define logging level same way as you configure your monolog handler
+    cli: true                                            # Catch cli php errors
+    enabled: %remotelog_enabled%
+
 fos_rest:
     routing_loader:
         default_format: json

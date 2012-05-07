@@ -32,7 +32,8 @@ class AppKernel extends Kernel
             new Hatimeria\NewsletterBundle\HatimeriaNewsletterBundle(),
             new Hatimeria\Bundle\CMFBundle\HatimeriaCMFBundle(),
             new \Hatimeria\FrameworkBundle\HatimeriaFrameworkBundle(),
-            new Hatimeria\MonitoringServerBundle\HatimeriaMonitoringServerBundle()
+            new Hatimeria\MonitoringServerBundle\HatimeriaMonitoringServerBundle(),
+            new Hatimeria\RemotelogBundle\HatimeriaRemotelogBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

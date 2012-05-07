@@ -23,7 +23,8 @@ $loader->registerNamespaces(array(
     'DoctrineExtensions' => __DIR__.'/../vendor/doctrine-extensions/lib',
     'Bazinga'            => __DIR__.'/../vendor/bundles',
     'Knp\\Snappy'        => __DIR__.'/../vendor/snappy/src',
-    'Knp'                => __DIR__.'/../vendor/bundles',    
+    'Knp'                => __DIR__.'/../vendor/bundles',
+    'Remotelog'          => __DIR__.'/../vendor/remotelog/src',
 ));
 $loader->registerPrefixes(array(
     'Twig_Extensions_' => __DIR__.'/../vendor/twig-extensions/lib',
