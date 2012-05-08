@@ -7,26 +7,39 @@
         <link href="http://www.hatimeria.com/assets/img/hatimeria.ico" type="image/ico" rel="shortcut icon" /> 
     </head>
     <body>
+        <a href="https://github.com/hatimeria/hatimeria">
+            <img style="position: absolute; top: 0; right: 0; border: 0; margin: 0" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub">
+        </a>
         <div id="container">
-            <h1><a href="/"><img src="/bundles/hatimeriaadmin/images/hatimeria_v_220.png"/></a> Symfony Distribution</h1>
-            <p>Integrated Symfony, ExtJS and many bundles with admin backend.</p>
-            <p>Created and maintaned by <a href="http://hatimeria.com">Hatimeria</a>.</p>
+            <h1><a href="/" title="Symfony Outsourcing"><img src="/bundles/hatimeriaadmin/images/hatimeria_v_220.png" title="Symfony Outsourcing"/></a> Symfony Distribution</h1>
+
+            <p>Integrated <a href="httpp://symfony.com">Symfony</a>, <a href="http://www.sencha.com/products/extjs">ExtJS</a> and many bundles with admin backend.</p>
+            <p>Created and maintained by <a href="http://hatimeria.com">Hatimeria</a> company.</p>
+
             <h2>Resources</h2>
+
             <a href="/compiled/js/docs/index.html">Javascript documentation browser</a><br/>
             <a href="https://github.com/hatimeria/hatimeria">Source code on github</a>
+
             <h2>Demonstration</h2>
+
             <p>Sign in with login: <b>demo@hatimeria.com</b>, password: <b>hatimeria</b></p>
             <a href="{{ path('hatimeria_admin') }}">Sign in to see Backend demo</a>
+
             <h2>Features</h2>
+
             <h3>Framework</h3>
+
             <ul>
                 <li>Routing exposed for extjs (integrated with <a href="https://github.com/FriendsOfSymfony/FOSJsRoutingBundle">FOSJsRoutingBundle</a>)</li>
                 <li>Translations exposed for extjs (integrated with <a href="https://github.com/willdurand/BazingaExposeTranslationBundle">BazingaExposeTranslationBundle</a>)</li>
                 <li>Ajax operations (integrated with <a href="https://github.com/hatimeria/HatimeriaExtJSBundle">HatimeriaExtJSBundle</a>)</li>
-                <li>Powerfull CRUD implementation</li>
+                <li>Powerful CRUD implementation</li>
                 <li>One compiled javascript for production</li>
             </ul>
+
             <h3>Backend</h3>
+
             <ul>
                 <li>Ajax login</li>
                 <li>User switch</li>
@@ -35,6 +48,36 @@
                 <li>Newsletter manager</li>
                 <li>Cms manager</li>
             </ul>
+
+            <h2>Quick start</h2>
+
+            <h3>Adding new module to admin panel</h3>
+
+            <p>
+                HatimeriaAdminBundle has already implemented couple of panels for existing modules. We will use CmsPanel as an example how to add your own.
+            </p>
+            <p>
+                First of all create in Resources/public/js directory of your bundle, a directory where you will develop your panel.<br/>
+                In our case we named it 'cms'.<br/>
+                Most important file in these directory is CmsPanel.js. Its name is combined of name of directory and word 'panel'.<br/>
+                It is very important to name it using same standard.
+            </p>
+            <script src="https://gist.github.com/2633940.js?file=CmsPanel.js"></script>
+            <p>
+                As you can see full panel class name is 'HatimeriaAdmin.cms.CmsPanel'.<br/>
+                HatimeriaAdmin is namespace which must be defined in extjs.yml file in loader section.
+            </p>
+            <script src="https://gist.github.com/2633940.js?file=extjs.yml"></script>
+            <p>
+                HatimeriaAdmin namespace is added by default, but you can add it same way as HatimeriaMonitoring.<br/>
+                Value is a path to js resource directory. <br/>
+                The final touch is to add newly created panel to admin menu. <br />
+                To do that simply add the name of you module in defaults.yml under admin_menu key. <br />
+            </p>
+            <script src="https://gist.github.com/2633940.js?file=defaults.yml"></script>
+            <p>
+                From now on when you click on your tab in admin menu your panel will be loaded.
+            </p>
         </div>
     </body>
 </html>
