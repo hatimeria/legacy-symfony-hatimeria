@@ -163,3 +163,4 @@
   git=git://github.com/hatimeria/remotelog.git
   dev=git@github.com:hatimeria/remotelog.git
   target=/remotelog
+
