@@ -142,3 +142,10 @@
   target=/hatimeria/HatimeriaExtJS
 
 
+[HatimeriaRemotelogBundle]
+  git=git://github.com/hatimeria/HatimeriaRemotelogBundle.git
+  target=/bundles/Hatimeria/RemotelogBundle
+
+[HatimeriaRemotelog]
+  git=git://github.com/hatimeria/remotelog.git
+  target=/remotelog
