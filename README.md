@@ -1,4 +1,6 @@
-# Hatimeria - Symfony and ExtJS Integrated
+# Legacy framework - Symfony and ExtJS Integrated
+
+# This code is years old, left here just as an archive.
 
 ## Build for heavy javascript applications
 
